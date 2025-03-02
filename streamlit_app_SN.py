@@ -1,6 +1,6 @@
 import streamlit as st
-from pages.pages_1 import func_page_1
-from pages.pages_2 import func_page_2
+from Pages.pages_1 import func_page_1
+from Pages.pages_2 import func_page_2
 from datetime import datetime
 from Views import FeedView, AddPostView
 from Services import get_feed, add_post
